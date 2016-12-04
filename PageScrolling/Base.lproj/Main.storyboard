@@ -25,9 +25,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuw-4o-l8J">
-                                <rect key="frame" x="57.5" y="0.0" width="260" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="ZS8-qR-jIH"/>
+                                    <constraint firstAttribute="width" constant="220" id="ZS8-qR-jIH"/>
                                 </constraints>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="e9n-ON-bax">

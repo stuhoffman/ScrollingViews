@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+            }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
         var contentWidth: CGFloat = 0.0
         
         for x in 0...2 {
@@ -34,10 +38,12 @@ class ViewController: UIViewController {
             
         }
         
+        scrollView.backgroundColor = UIColor.purple
+        
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
         print("Count: \(images.count)")
-    }
 
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

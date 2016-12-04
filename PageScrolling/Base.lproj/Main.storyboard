@@ -25,7 +25,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuw-4o-l8J">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="57.5" y="0.0" width="260" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="ZS8-qR-jIH"/>
+                                </constraints>
                             </scrollView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mountains" translatesAutoresizingMaskIntoConstraints="NO" id="e9n-ON-bax">
                                 <rect key="frame" x="0.0" y="539" width="375" height="128"/>
@@ -48,9 +51,8 @@
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Npt-lq-PvY" secondAttribute="bottom" id="0jO-vi-gtp"/>
                             <constraint firstItem="e9n-ON-bax" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4nb-Eq-aou"/>
-                            <constraint firstAttribute="trailing" secondItem="vuw-4o-l8J" secondAttribute="trailing" id="7ga-zA-Zls"/>
-                            <constraint firstItem="vuw-4o-l8J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="91L-vz-B2r"/>
                             <constraint firstAttribute="trailing" secondItem="Npt-lq-PvY" secondAttribute="trailing" id="FXW-6J-hok"/>
+                            <constraint firstItem="vuw-4o-l8J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JMP-7B-Gov"/>
                             <constraint firstAttribute="trailing" secondItem="e9n-ON-bax" secondAttribute="trailing" id="QoU-UR-f4R"/>
                             <constraint firstItem="Npt-lq-PvY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VTD-PB-Ufr"/>
                             <constraint firstItem="Npt-lq-PvY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VVR-dq-ODR"/>
